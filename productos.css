@@ -66,7 +66,7 @@ nav a:hover {
 }
 
 .productos li:hover .producto-precio {
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .productos li:active {
@@ -89,3 +89,16 @@ nav a:hover {
   margin-top: 10px;
   transition: all 100ms;
 }
+
+footer {
+  text-align: center;
+  background: url(img/bg.jpg);
+  padding: 30px;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 14px;
+  margin: 20px;
+} 
+
