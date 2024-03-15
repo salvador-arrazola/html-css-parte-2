@@ -12,7 +12,7 @@ header {
 nav {
   position: absolute;
   top: 105px;
-  right: 0;
+  right: 30px;
 }
 
 nav li {
@@ -26,10 +26,12 @@ nav a {
   font-weight: bold;
   font-size: 22px;
   text-decoration: none;
+  transition: all 200ms;
 }
   
 nav a:hover {
-  color: rgb(124, 92, 9);
+  color: #7c5c09;
+  font-size: 24px;
 }
 
 .productos {
@@ -50,11 +52,31 @@ nav a:hover {
   border-width: 2px;
   border-style: solid;
   border-radius: 10px;
+  transition: all 100ms;
+}
+
+.productos li:hover {
+  border-color: #7c5c09;
+  border-width: 3px;
+  transform: scale(1.05);
+}
+
+.productos li:hover h2 {
+  font-size: 33px;
+}
+
+.productos li:hover .producto-precio {
+  font-size: 35px;
+}
+
+.productos li:active {
+  border-color:#5f9ea0 
 }
 
 .productos h2 {
   font-size: 30px;
   font-weight: bold;
+  transition: all 100ms;
 }
 
 .producto-descripcion {
@@ -65,4 +87,5 @@ nav a:hover {
   font-size: 20px;
   font-weight: bold;
   margin-top: 10px;
+  transition: all 100ms;
 }
